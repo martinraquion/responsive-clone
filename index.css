@@ -18,9 +18,9 @@ body{
     align-items: center;
     position: fixed;
     top: 0;
-
-
 }
+
+
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -189,9 +189,6 @@ body{
     margin-top: 20px;
 }
 
-.how-info img{
-
-}
 
 .how-info-text{
     /*  */
