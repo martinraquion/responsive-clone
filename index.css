@@ -442,12 +442,18 @@ text-align: left;
     height: auto;
     display: flex;
     justify-content: center;
+    
 }
 
 .card-body{
    width: 50%;
-   height: 600px;
+   height: 400px;
    overflow: hidden;
+   position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer{
@@ -467,4 +473,33 @@ text-align: left;
     font-size: 1em;
     color: #69777C;
     
+}
+
+.card-cont{
+    background: #354042;
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top:20%;
+    border-radius: 10px;   
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.card-body .txt-wrap{
+    margin: 25px;
+    color: #D3D3D3;
+    font-family: 'Open Sans', 'sans-serif';
+    line-height: 1.9em;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+
+}
+.card-body .title{  
+    font-size: 2em;
+    color: #BCD436;
+}
+
+.card-body h4{
+    margin-top: 10px;
 }
