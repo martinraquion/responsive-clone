@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #EFF0EF;
+    height: 100%;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 90%;
+    width: 62%;
+}
+
+.logo{
+    
+    width: 45%;
+    height: 100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img{
+    height: 100%;
+    width: 30%;
+}
+
+.link-wrap{
+    height: 100%;
+    width:55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.link-wrap a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.banner{
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    background:url('images/wot-masthead-dark.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title-text{
+    margin-top: 60px;
+    height: auto;
+    width: 35%;
+    color: white;
+    /*  */
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.text-header{
+    margin-top: 50px;
+    font-size: 1.5em;
+    /*  */
+}
+
+.text-main{
+    margin-top: -40px;
+    padding: 0;
+    font-size:9.8em;
+    line-height: 180px;
+    /*  */
+}
+
+
+.tag-container{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ 
+
+.orange{
+    color: #FF7F3B
+}
+
+.green{
+    color: #BCD436
+}
+
+.bar{
+    width: 20%;
+    height: 10px;
+    background: white;
+}
+
+.condensed-text{
+    color: white;
+    font-size: 1.3em;
+}
+
+.btn-wrap{
+    width: 100%;
+    height: 100px;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btn-wrap button{
+    width: 60%;
+    height: 46px;
+    font-size: 1em;
+    font-weight: bold;
+    background: #BCD436;
+    border: none;
+    color: white;
+    border-radius: 40px;
+}
+
+.container{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+}
+
+.container-wrap{
+    margin-top: 20px;
+    width: 50%;
+    height: 85%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*  */
+}
+
+.container-wrap .text-info{
+    color: #69777C;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.how-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /*  */
+    margin-top: 20px;
+}
+
+.how-info img{
+
+}
+
+.how-info-text{
+    /*  */
+    width: 50%;
+    font-size: 2.5em;
+    text-align: center;
+    color: #69777C; 
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+div.learn-about{
+    background: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-container{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.learn-card{
+    height: 85%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #69777C;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.learn-card img{
+    height: 25%;
+}
+
+
+.learn-info{
+    height: 25%;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+.learn-card a{
+    height: 30%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.learn-info-small{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.learn-card a .arrow{
+    font-size: 2em;
+    color: #69777C;
+ 
+}
+
+.right-border{
+    border-right: 1px solid #D3D3D3;
+}
+
+.how-help{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-help-container{
+    margin-top: 30px;
+    width: 55%;
+    height: 95%;
+    
+}
+
+.text-wrap .how-info-text{
+   margin: auto;
+}
+
+.sub-title{
+    margin: auto;
+    text-align: center; 
+    font-size: 1.3em;
+    font-family: 'Open Sans', sans-serif;
+    color: #69777C;
+    font-weight: bold;
+}
+
+.help-info-con{
+    width: 100%;
+    height: 80%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-column{
+    height: 90%;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Open Sans', 'sans serif';
+}
+
+.help-box{
+    width: 90%;
+    height: auto;
+    padding: 5%;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.help-box-big{
+    width: 90%;
+    height: auto;
+    background: white;
+    padding: 10%;
+}
+
+.help-column h2{
+    text-align: center;
+    color: #40666D;
+    
+}
+
+.help-column h4{
+    color: #69777C;
+    text-align: center;
+}
+
+.how-help .btn-wrap{
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-wrap .contact{
+    width: 20%;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.title-company-container{
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-company-container .companies-title{
+    color: #69777C;
+    font-size: 2.3em;
+    padding: 30px;
+}
+
+.companies-container{
+    width: 100%;
+    height: auto;
+}
+
+.companies-container .clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.clients img{
+    width:33.33%;
+}
+
+.lets-talk{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #40666D;
+}
+
+.lets-talk-container{
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px;
+    font-family: 'Open Sans', 'sans-serif';   
+}
+.txt-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+.txt-wrap .text{
+ color: white;
+ font-size: 1.7em;
+ padding: 18px;
+ font-weight: bold;
+text-align: left;
+}
+
+.txt-wrap .bar{
+    background: #BCD436;
+    margin-left: 20px;
+    height: 5px;
+    width:50px;
+}
+
+.lets-talk-container .email-btn{
+    width: 15%;
+    height: 46px;
+    font-size: 1em;
+    font-weight: bold;
+    background: #BCD436;
+    border: none;
+    color: white;
+    border-radius: 40px;
+}
+
+.contact-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body{
+   width: 50%;
+   height: 600px;
+   overflow: hidden;
+}
+
+.footer{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-cont{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 18px;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 1em;
+    color: #69777C;
+    
+}
