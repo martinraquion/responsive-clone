@@ -11,7 +11,7 @@ body{
     
 }
 .nav{
-    height: 10%;
+    height: 7%;
     width: 100%;
     /* padding: 20px; */
     background: white;
@@ -32,13 +32,13 @@ body{
     justify-content: space-between;
     align-items: center;
     height:50%;
-    width: 85%;
+    width: 60%;
 }
 
 .logo{
     
     width: 60%;
-    height: 100%;
+    height: 90%;
     display:flex;
     justify-content: flex-start;
     align-items: center;
@@ -51,7 +51,7 @@ body{
 
 .link-wrap{
     height: 100%;
-    width:55%;
+    width:70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,14 +82,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 80px 0px 55px 0;
+
 }
 
 
 .title-text{
-    margin-top: 60px;
-    margin-bottom: 30px;
-    height: 90%;
-    width: 50%;
+    /* margin-top: 60px;
+    margin-bottom: 65px; */
+    height: 80%;
+    width: 36%;
     color: white;
     /*  */
     font-family: 'Oswald', sans-serif;
@@ -108,8 +110,9 @@ body{
 .text-main{
     margin-top: -40px;
     padding: 0;
-    font-size:9.8em;
+    font-size:10em;
     line-height: 180px;
+    align-self: center;
     /*  */
 }
 
@@ -119,7 +122,7 @@ body{
     width: 100%;
     /* border: 1px solid red; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -135,7 +138,7 @@ body{
 }
 
 .bar{
-    width: 20%;
+    width: 15%;
     height: 10px;
     background: white;
 }
@@ -217,7 +220,7 @@ body{
 }
 
 .learn-about{
-  
+
     background: white;
     width: 100%;
     height: auto;
@@ -228,7 +231,7 @@ body{
 }
 
 .learn-container{
-    width: 90%;
+    width: 70%;
     height: 550px;
     display: flex;
     justify-content: center;
@@ -520,4 +523,73 @@ text-align: left;
 
 .card-body h4{
     margin-top: 10px;
+}
+
+.for-media{
+    display: none;
+}
+
+/* Tablet */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1023px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .logo-text{
+    display: none;
+    }
+
+    .for-media{
+    display: block;
+    }
+      
+    .link-wrap{
+       display: none;
+   }
+
+   .nav{
+    height: 9%;
+    width: 100%;
+   }
+
+   .nav-container{
+    height:70%;
+    width: 93%;
+    
+    }
+
+    .logo{
+    
+    width: 60%;
+    height: 90%;
+
+    }
+
+    .nav span {
+        color: #69777C;
+        font-size: 1em;
+        margin-right: 20px;
+    }
+
+    .banner{
+    height: auto;       
+    }
+
+    .title-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tag-container{
+        border: 1px solid black;
+        width: 650px;
+        height: 30%;
+    }
+
+   
+   
+
+
 }
