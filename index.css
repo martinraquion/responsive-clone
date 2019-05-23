@@ -573,21 +573,78 @@ text-align: left;
     }
 
     .banner{
-    height: auto;  
+    height:500px;  
          
     }
 
     .title-text{
+        margin-top: -40px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .tag-container{
-        border: 1px solid black;
+        /* border: 1px solid black; */
         width: 650px;
         height: 30%;
     }
+
+    .btn-wrap{
+        margin: 30px;
+        /* border: 1px solid black; */
+        width: 70   0px;
+    }
+
+    .btn-wrap button{
+        width: 100%;
+    }
+
+    .container-wrap{
+        margin-top: -20px;
+        width: 90%;
+        
+    }
+
+    .learn-about{
+        height: 1500px;
+    }
+
+    .learn-container{
+        /* border: 1px solid black; */
+        margin-top:-30px;
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        width: 100%;
+
+    }
+    
+    
+    .learn-card{
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 40%;
+        margin-bottom: 70px;
+    }
+
+    .learn-card img{
+        height: 33%;
+    }
+
+    .how-help-container{
+        width: 80%;
+    }
+    
+    .text-wrap{
+     width: 100%;   
+    }
+
+    .help-info-con{
+        display: flex;
+        flex-direction: column;
+    }
+
 
    
    
